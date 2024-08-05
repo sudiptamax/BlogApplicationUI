@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .blog-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .blog-text {
+    font-size: 1.2em;
+  }
+  
+  .blog-meta {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .btn {
+    margin-right: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+
+
+  /* src/styles.css */
+.snackbar-success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .snackbar-error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

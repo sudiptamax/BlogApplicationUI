@@ -1,0 +1,13 @@
+<div class="container" *ngIf="blog">
+    <h2 class="title">Blog Details</h2>
+    <div class="detail-item">
+      <strong>Text:</strong> {{ blog.text }}
+    </div>
+    <div class="detail-item">
+      <strong>Username:</strong> {{ blog.username }}
+    </div>
+    <div class="detail-item">
+      <strong>Date Created:</strong> {{ blog.dateCreated | date }}
+    </div>
+  </div>
+  
