@@ -1,99 +1,131 @@
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f8f9fa;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .search-sort {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .search-sort input {
-    margin-right: 10px;
-  }
-  
-  .search-sort select {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .search-sort button {
-    margin-left: 10px;
-  }
-  
-  .blog-item {
-    border: 1px solid #000;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .blog-content {
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  .blog-text {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: left;
-  }
-  
-  .blog-meta {
-    font-size: 0.9em;
-    color: #777;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  .blog-actions {
-    text-align: center;
-  }
-  
-  .blog-actions .btn {
-    margin: 5px;
-  }
-  
-  button.btn-info {
-    background-color: #17a2b8;
-    color: white;
-  }
-  
-  button.btn-info:hover {
-    background-color: #138496;
-  }
-  
-  button.btn-secondary {
-    background-color: #6c757d;
-    color: white;
-  }
-  
-  button.btn-secondary:hover {
-    background-color: #5a6268;
-  }
-  
-  button.btn-danger {
-    background-color: #dc3545;
-    color: white;
-  }
-  
-  button.btn-danger:hover {
-    background-color: #c82333;
-  }
-  
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-sort {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-sort input {
+  margin-right: 10px;
+}
+
+.search-sort select {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-sort button {
+  margin-left: 10px;
+}
+
+.blog-item {
+  border: 1px solid #000;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.blog-text {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.blog-meta {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.blog-actions {
+  text-align: center;
+}
+
+.blog-actions .btn {
+  margin: 5px;
+}
+
+button.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+button.btn-info:hover {
+  background-color: #138496;
+}
+
+button.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls span {
+  margin: 0 10px;
+}
+
+.pagination-controls button {
+  margin-left: 10px;
+}
+
+.search-sort {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-sort input {
+  margin-right: 10px;
+}
+
+.search-sort select {
+  margin: 0 10px;
+}
+
+.search-sort button {
+  margin-left: 10px;
+}

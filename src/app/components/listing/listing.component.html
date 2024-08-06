@@ -20,7 +20,6 @@
       <div class="blog-meta">
         Created: {{ blog.username }} | Created date: {{ blog.dateCreated | date }}
       </div>
-      <button class="btn btn-info" (click)="viewBlogDetail(blog.id)">View Details</button>
       <button class="btn btn-secondary" (click)="editBlog(blog.id)">Edit</button>
       <button class="btn btn-danger" (click)="deleteBlog(blog.id)">Delete</button>
     </div>
