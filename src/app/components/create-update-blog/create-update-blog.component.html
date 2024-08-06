@@ -1,18 +1,15 @@
 <div class="container">
   <h2>{{ isEdit ? 'Edit Blog' : 'Create Blog' }}</h2>
-  <form #blogForm="ngForm" (ngSubmit)="saveBlog()">
+  <form [formGroup]="blogForm" (ngSubmit)="saveBlog()">
     <div class="form-group">
       <label for="username">Username</label>
       <input
         type="text"
         class="form-control"
         id="username"
-        required
-        [(ngModel)]="blog.username"
-        name="username"
-        #username="ngModel"
+        formControlName="username"
       />
-      <div *ngIf="username.invalid && (username.dirty || username.touched)" class="text-danger">
+      <div *ngIf="blogForm.controls['username'].invalid && (blogForm.controls['username'].dirty || blogForm.controls['username'].touched)" class="text-danger">
         Username is required.
       </div>
     </div>
@@ -22,12 +19,9 @@
       <textarea
         class="form-control"
         id="text"
-        required
-        [(ngModel)]="blog.text"
-        name="text"
-        #text="ngModel"
+        formControlName="text"
       ></textarea>
-      <div *ngIf="text.invalid && (text.dirty || text.touched)" class="text-danger">
+      <div *ngIf="blogForm.controls['text'].invalid && (blogForm.controls['text'].dirty || blogForm.controls['text'].touched)" class="text-danger">
         Text is required.
       </div>
     </div>
