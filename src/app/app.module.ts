@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ListingComponent } from './components/listing/listing.component';
 import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
 import { CreateUpdateBlogComponent } from './components/create-update-blog/create-update-blog.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CreateUpdateBlogComponent } from './components/create-update-blog/creat
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule // Add this line
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
